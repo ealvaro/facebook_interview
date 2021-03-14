@@ -1,11 +1,11 @@
 Just recently, (01/2021), I was asked by Facebook recruiter to create in 40min a very simple, quick Ruby on Rails app demonstrating knowledge of Dijktra's Shortest Path Algorithm. It actually took me a whole week to complete it, during off-work hours. These are the project specs discussed in the Technical Interview.
 
 # Technical Interview: Ruby Test #
-A twist to the Shortest Path Algorithm application 
- 
+A twist to the Shortest Path Algorithm application
+
 ### Project ###
- 
-Imagine a house with Open spaces and Walls. Also, imagine that we have the famous Roomba autonomous vaccum cleaner.
+
+Imagine a house with Open spaces and Walls. Also, imagine that we have the famous Roomba autonomous vaccum cleaner. The idea is to ask what point (coordinate) is the furthest away from Roomba and its path length. Let the house be represented by a Matrix where 'O' stands for an Open Space, 'W' for a Wall and 'R' for Roomba. Roomba can only travel through Open Spaces and cannot go through Walls. Find below an example:
 
 ### Example:
 Input (Matrix)
@@ -24,6 +24,7 @@ Input (Matrix)
 
   ['W', 'O', 'O', 'O', 'W', 'W', 'W']
 
+If we assign a travel cost of 1 for neighboring Open Spaces and a cost of 100 for Walls then these are the calculated path lengths for the example above, from Roomba to all the other points in the Matrix:
 
 Intermediate (Path lengths from 'R')
 
@@ -32,15 +33,15 @@ Intermediate (Path lengths from 'R')
 Output (Longest Path length and vertice coordinates)
 
 [12, [6, 7]]
- 
+
 ### Requirements ###
- 
+
 - A Matrix is given with a map of Open spaces, Walls and Roomba in it, with 'O', 'W' and 'R' respectively.
 - Code should be written to find the furthest away Open space for Roomba.
 - Output should be the length of the path and the coordinate in Matrix of the furthest away Open space.
- 
+
 ### Assessment criteria ###
- 
-1. Be done in 40min. 
+
+1. Be done in 40min.
 2. Be optimal or explain Complexity and how to improve it to become optimal.
 ```
