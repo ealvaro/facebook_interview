@@ -44,4 +44,11 @@ Output (Longest Path length and vertice coordinates)
 
 1. Be done in 40min.
 2. Be optimal or explain Complexity and how to improve it to become optimal.
+
+
+## Communication
+
+- If you **found a bug**, open an issue.
+- If you **have a feature request**, open an issue.
+- If you **want to contribute**, submit a pull request.
 ```
