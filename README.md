@@ -23,6 +23,8 @@ Input (Matrix)
   ['O', 'O', 'R', 'O', 'W', 'O', 'O'],
 
   ['W', 'O', 'O', 'O', 'W', 'W', 'W']
+  
+### My Solution ###  
 
 If we assign a travel cost of 1 for neighboring Open Spaces and a cost of 100 for Walls then these are the calculated path lengths for the example above, from Roomba to all the other points in the Matrix:
 
